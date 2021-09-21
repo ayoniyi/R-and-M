@@ -89,7 +89,7 @@ a.activeLink {
 @media (max-width: 600px) {
   .footerText,
   .footerText2 {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
 }
 
