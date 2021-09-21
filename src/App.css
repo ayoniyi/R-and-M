@@ -1,38 +1,94 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: shwiffty;
+  src: url(./fonts/shwifft.ttf);
+}
+@font-face {
+  font-family: caligraphy;
+  src: url(./fonts/cal.ttf);
+}
+@font-face {
+  font-family: shitt;
+  src: url(./fonts/shitt.ttf);
+}
+@font-face {
+  font-family: st;
+  src: url(./fonts/st.ttf);
+}
+html {
+  overflow-y: scroll;
+  height: 100%;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  font-family: caligraphy;
+  background: rgb(46, 46, 46);
+}
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+.overlay {
+  width: 100%;
+  position: fixed;
+  /* background: #00000091; */
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 4;
+  width: 100%;
+  height: 100vh;
+  transition: 0.6s ease-in-out;
+}
+.homeTitle {
+  font-size: 4.5em;
   text-align: center;
+  color: #d0f5d1;
+  position: relative;
+  z-index: 1;
+  margin: 0.5em auto;
+  font-family: shitt;
+  letter-spacing: 10px;
+  width: 70%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.subTitle {
+  font-size: 2.5em;
+  text-align: center;
+  color: #d0f5d1;
+  position: relative;
+  z-index: 1;
+  margin: 0.5em auto;
+  font-family: shitt;
+  letter-spacing: 10px;
+  width: 70%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 750px) {
+  .homeTitle {
+    font-size: 2.3em;
+    width: 100%;
+    margin: 0 auto;
+    /* background: lavender; */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .subTitle {
+    font-size: 1.9em;
+    width: 100%;
+    margin: 0 auto;
+    /* background: lavender; */
   }
 }

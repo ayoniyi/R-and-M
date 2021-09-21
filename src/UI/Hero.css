@@ -1,0 +1,46 @@
+.heroBox {
+  /* background: rgb(5, 27, 88); */
+  padding: 0 2rem;
+}
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroImg {
+  width: 50%;
+  position: relative;
+  transition: 0.1s ease-in;
+  /* z-index: -1; */
+}
+.heroImg:hover {
+  cursor: pointer;
+  transition: 0.1s ease-in;
+  filter: invert(1);
+}
+.heroImg2 {
+  width: 35%;
+  position: relative;
+  transition: 0.1s ease-in;
+  /* z-index: -1; */
+  filter: invert(1);
+}
+.heroImg2:hover {
+  filter: invert(0.1);
+}
+@media (max-width: 1300px) {
+  .heroImg2 {
+    filter: invert(0);
+  }
+  .heroImg2:hover {
+    filter: invert(1.5);
+  }
+}
+@media (max-width: 600px) {
+  .heroImg {
+    width: 100%;
+  }
+  .heroImg2 {
+    width: 75%;
+  }
+}
