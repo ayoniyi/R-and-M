@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import SingleCharacter from "./pages/SingleCharacter";
 
 import Characters from "./pages/Characters";
+import About from "./pages/About";
 import Episodes from "./pages/Episodes";
 import NotFound from "./pages/NotFound";
 
@@ -27,6 +28,7 @@ function App() {
             <Redirect to="/" />
           </Route>
           <Route exact path="/characters" component={Characters} />
+          <Route exact path="/about" component={About} />
           <Route
             exact
             path="/character/:characterId"

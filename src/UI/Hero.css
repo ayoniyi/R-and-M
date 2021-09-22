@@ -25,6 +25,18 @@
   /* z-index: -1; */
   filter: invert(1);
 }
+.heroImg3 {
+  width: 40%;
+  position: relative;
+  transition: 0.1s ease-in;
+  /* z-index: -1; */
+  /* filter: invert(1); */
+}
+.heroImg3:hover {
+  cursor: pointer;
+  transition: 0.1s ease-in;
+  filter: invert(1);
+}
 .heroImg2:hover {
   filter: invert(0.1);
 }

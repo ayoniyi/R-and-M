@@ -137,7 +137,7 @@ const Header = () => {
                         },
                       }}
                     >
-                      <Link to="#connect">ABOUT</Link>
+                      <Link to="/about">ABOUT</Link>
                     </motion.li>
                   </ul>
                 )}

@@ -77,6 +77,10 @@ button {
   font-family: shitt;
   letter-spacing: 10px;
   width: 70%;
+
+  font-size: 2.4em;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 102px #0fa, 0 0 151px #0fa;
 }
 @media (max-width: 750px) {
   .homeTitle {
@@ -89,6 +93,8 @@ button {
     font-size: 1.9em;
     width: 100%;
     margin: 0 auto;
+
+    font-size: 1.4em;
     /* background: lavender; */
   }
 }

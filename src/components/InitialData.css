@@ -6,6 +6,7 @@
   width: 97%;
   position: relative;
   z-index: 2;
+  /* min-height: 100vh; */
 }
 .cardsContainer2 {
   background: black;
@@ -15,6 +16,7 @@
   width: 97%;
   position: relative;
   z-index: 2;
+  min-height: 100vh;
 }
 .homeCard {
   /* background: rgb(46, 46, 46); */
@@ -36,7 +38,7 @@
 }
 .loaderBox img {
   margin: 2em 0;
-  width: 40%;
+  width: 52%;
   border-radius: 50%;
 }
 .cardBigImg {
@@ -399,6 +401,12 @@
 @media (max-width: 750px) {
   .cardsContainer {
     width: 100%;
+    min-height: 100vh;
+  }
+  .loaderBox img {
+    margin: 10em 0;
+    width: 100%;
+    border-radius: 50%;
   }
   .homeCardContent {
     flex-direction: column;
