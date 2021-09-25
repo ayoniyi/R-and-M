@@ -195,9 +195,11 @@ const Episodes = () => {
                 </button>
               )}
             </div>
-            <p className="pgTxt">
-              Page {currentPage} of {totalPages}
-            </p>
+            {!isLoading && (
+              <p className="pgTxt">
+                Page {currentPage} of {totalPages}
+              </p>
+            )}
           </div>
         )}
       </section>
