@@ -26,7 +26,7 @@ const About = () => {
             </p>
             <p className="aboutText">
               The project is filled with canonical information as seen on the TV
-              show, although nothing about season 5 currently.
+              show and was built out of boredom.
             </p>
           </div>
         </div>
